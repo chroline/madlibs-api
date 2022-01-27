@@ -7,11 +7,17 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/chroline/words-aas/issues)
 ![chroline/madlibs-api](https://badgen.net/github/last-commit/chroline/words-aas/main)
 
-> API that provides fill-in-the-blank stories.
+API that provides fill-in-the-blank stories.
 
 </div>
 
-# Usage
+<br />
+
+---
+
+<br />
+
+## Usage
 
 This API provides two endpoints:
 
