@@ -11,12 +11,6 @@ API that provides fill-in-the-blank stories.
 
 </div>
 
-<br />
-
----
-
-<br />
-
 ## Usage
 
 This API provides two endpoints:
