@@ -18,15 +18,13 @@ This API provides two endpoints:
 1. **`/api/random`** — obtain a random story
 
 ```shell script
-curl --request GET \
---url 'https://madlibs-api.vercel.app/api/random'
+curl 'https://madlibs-api.vercel.app/api/random'
 ```
 
 2. **`/api/story/[title]/`** — obtain a specific story by title
 
 ```shell script
-curl --request GET \
---url 'https://madlibs-api.vercel.app/api/story/A Spooky Campfire Story'
+curl 'https://madlibs-api.vercel.app/api/story/A Spooky Campfire Story'
 ```
 
 ## Credits
