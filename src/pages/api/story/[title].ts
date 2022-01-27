@@ -3,7 +3,8 @@ import { NextApiResponse, NextApiRequest } from "next";
 import templates from "../../../../data/templates.json";
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
-  const { title } = req.query as { title: string };
+  let { title } = req.query as { title: string };
+  title = title.replaceAll("%20", " ");
 
   if (!templates[title]) {
     return res.status(404).send(`404: story "${title}" not found`);
