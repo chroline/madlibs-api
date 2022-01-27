@@ -34,3 +34,9 @@ curl --request GET \
 curl --request GET \
 --url 'https://madlibs-api.vercel.app/api/story/A Spooky Campfire Story'
 ```
+
+## Credits
+
+`madlibs-api` is created and maintained by Cole Gawin.
+
+> The story templates provided by this API are from [`HermanFasset/madlibz`](https://github.com/HermanFassett/madlibz) (released under MIT licensing). See [http://madlibz.herokuapp.com](http://madlibz.herokuapp.com) for more details.
